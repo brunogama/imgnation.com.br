@@ -1,0 +1,1 @@
+/Users/windu/.virtualenvs/imgnation/lib/python2.7/site-packages/grappelli/static/grappelli/jquery/i18n/ui.datepicker-de.js

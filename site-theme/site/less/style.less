@@ -1,0 +1,322 @@
+@import "html5boilerplate-intro.less";
+@import "functions.less";
+
+/* ==|== primary styles =====================================================
+   Author: Bruno Gama (@brunogama)
+   ========================================================================== */
+// Setup
+@colorLaranja:rgb(236, 145, 43);
+@colorAmarelo:rgb(248, 198, 11);
+@colorAmareloClaro:rgb(255, 232, 0);
+
+html, body { min-height: 100%; }
+
+body {
+	background: url(../img/tiles.jpg); /* Fallback */
+	background: url(../img/logo-bg.png) no-repeat 50% 50%, url(../img/gradient-background.png) no-repeat 50% 50%, url(../img/tiles.jpg) 0 0 repeat;
+	background: url(../img/logo-bg.png) no-repeat 50% 50%, -webkit-gradient(radial, 50% 50%,200,50% 50%,20, from(rgba(22, 26, 46, 0.30)), to(rgba(29, 35, 58, 0.50))), url(../img/tiles.jpg);
+	background: url(../img/logo-bg.png) no-repeat 50% 50%, -webkit-radial-gradient(50% 50%, rgba(29, 35, 58, 0.50), rgba(22, 26, 46, 0.30)), url(../img/tiles.jpg);
+	background: url(../img/logo-bg.png) no-repeat 50% 50%, -moz-radial-gradient(50% 50%, rgba(29, 35, 58, 0.50), rgba(22, 26, 46, 0.30)), url(../img/tiles.jpg);
+	background: url(../img/logo-bg.png) no-repeat 50% 50%, -ms-radial-gradient(50% 50%, rgba(29, 35, 58, 0.50), rgba(22, 26, 46, 0.30)), url(../img/tiles.jpg);
+	background: url(../img/logo-bg.png) no-repeat 50% 50%, -o-radial-gradient(50% 50%, rgba(29, 35, 58, 0.50), rgba(22, 26, 46, 0.30)), url(../img/tiles.jpg);
+	background: url(../img/logo-bg.png) no-repeat 50% 50%, radial-gradient(50% 50%, rgba(29, 35, 58, 0.50), rgba(22, 26, 46, 0.30)), url(../img/tiles.jpg);
+	min-width: 1000px;
+}
+header ul {
+	position: absolute;
+	right: 0;
+	overflow: auto;
+	z-index: 10;
+	li { 
+		display: block;
+		float: left;
+		a:link, a:visited, a:hover, a:focus, a:active {
+			font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color: white;
+			text-decoration: none;
+			z-index: 100;
+			display: block;
+			padding: 1px 6px;
+			-webkit-font-smoothing: subpixel-antialiased;
+		}
+		a:hover { text-decoration: underline; }
+		&:nth-child(1) {
+			border-right: 1px solid white;
+		}
+	}
+}
+
+#imgnation_studios { 
+	background: url(../img/logo.png) no-repeat; 
+	height: 141px; width: 518px; 
+	position: absolute; 
+	bottom: 0; right: 0; 
+	z-index: 1000; 
+	margin-right: -10px;
+}
+
+h2 {
+	font: 700 36px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: @colorAmarelo;
+}
+
+#container {
+	height: 768px; width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#main {
+	position: relative;
+	height: 470px;width: 890px;
+	padding: 0 70px;
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.address li,
+p {
+	margin:0;padding:0;
+	margin-top: 18px;
+	font: 700 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	span {
+		color: @colorAmareloClaro;
+	}
+	a:link, a:visited, a:hover, a:focus, a:active   {
+		color: @colorAmareloClaro;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+}
+.address { padding-left: 0}
+.address li span { color: white;}
+#main div {
+	width: 50%;
+	&:first-child {
+		float: left;
+		display: table-cell;
+	}
+	&:nth-child(2) {
+		height: 390px;
+		margin:0;padding:0;
+		float:right;
+		text-align: right;
+	}
+}
+
+#contact #main {
+	div:first-child {
+		padding-top: 20px;
+	}
+	
+	li {
+		list-style: none;margin-bottom: 20px;
+		position: relative;
+	}
+	
+	// Decoration Styles
+	input, textarea, button	{
+		font: 700 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+		
+		color: rgba(66,66,66,1);
+		background: #c9c9c9;
+		border: none;
+		outline: none;
+		@shadowSpread: 10px;
+		@shadowColor: #aeaeae;
+		-webkit-box-shadow: inset 0 0 @shadowSpread @shadowSpread @shadowColor;
+		-moz-box-shadow: 	inset 0 0 @shadowSpread @shadowSpread @shadowColor;
+		box-shadow:			inset 0 0 @shadowSpread @shadowSpread @shadowColor;
+		.transform(scale(1));
+		.transition(all,.2s,ease-in-out);
+		
+		&:focus{
+			.transform(scale(1.04));
+			.transition(all,.2s,ease-in-out);
+		}
+	}
+	
+	input {
+		border: none;
+		height: 39px;width: 273px;
+		padding: 0 10px;
+		
+	}
+	
+	textarea {
+		border: none;
+		padding: 10px 10px;
+		width: 273px; height: 100px;
+		
+	}
+	button {
+		text-shadow: 0 0 12px white;
+		height: 40px; width: 104px;
+		.linear-gradient(rgba(149,149,149,1), rgba(205,205,205,1), 50%);
+		&:hover, &:focus {
+			.linear-gradient(rgba(205,205,205,1), rgba(149,149,149,1), 100%);
+		}
+	}
+}
+
+#games #main div,
+#apps #main div {
+	&:first-child {
+		width: 470px;
+		img {
+			display: block;
+			vertical-align: middle;
+			margin: 0 auto;
+		}
+	}
+	&:nth-child(2) {
+		width: 260px;
+		text-align: right;
+	}
+}
+
+/* Landing Page setup */
+#blog #main p,
+#landing #main p {
+	text-align: right;
+	margin:0; padding:0;
+	letter-spacing: -3px;
+	text-transform: uppercase;
+	font-size: 66px; font-weight: 700;
+	
+	span { color: @colorLaranja; font-size: 80px; }
+	&:nth-child(2) span { color: @colorAmarelo; }
+	&:nth-child(3) { 
+		font-size: 18px;
+		letter-spacing: -1px; 
+		text-transform: none;
+		span {
+			color: @colorLaranja; 
+			font-size: 18px;
+		}
+	}
+}
+
+
+/* End: Landing Page setup */
+
+footer {
+	background:url(../img/footer-gradient.png) no-repeat bottom center;
+	height: 140px; width: 840px;
+	margin: 0 auto;
+	padding-bottom: 14px;
+	position: relative;
+}
+
+nav, nav #nav, nav #nav li { height: 140px }
+
+#nav { overflow: hidden; display: block; }
+
+//@import "menu_animations.less";
+@import "li_hover.less";
+#nav {
+	li { display: inline-block; }
+
+	a:link, a:visited, a:hover, a:focus, a:active {
+		display: block;
+		color: #fff;
+		font: 700 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		text-decoration: none;
+		width: inherit;
+		text-align: center;
+		background-repeat: no-repeat;
+		z-index: 20;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+.about { 
+	width: 88px; 
+	margin-right: 98px; 
+	padding-top: 10px;
+	a {
+		padding-top: 100px; height:29;
+		background-image: url(../img/sprite-about.png); 
+	}
+}
+
+body#about .about a,
+.about a:active, {
+	background-position: -87px 0;
+}
+
+.games { 
+	width: 88px;
+	margin-right: 78px;
+	padding-top: 17px;
+	a { 
+		@totalHeight: 123px;
+		@paddingTop:94px;
+		padding-top: @paddingTop; height:@totalHeight - @paddingTop;
+		background-image: url(../img/sprite-games.png);
+	}
+}
+
+body#games .games a,
+.games a:active, {
+	background-position: -88px 0;
+}
+
+
+.apps {
+	width: 102px;
+	margin-right: 86px;
+	a { 
+		height: 33px; padding-top: 107px;
+		background-image: url(../img/sprite-apps.png);
+	}
+}
+
+body#apps .apps a,
+.apps a:active, {
+	background-position: -103px 0;
+}
+
+.contact { 
+	width: 92px; 
+	padding-top: 8px;
+	a {
+		// 131
+		padding-top: 99px; height:32;
+		background-image: url(../img/sprite-contact.png); 
+	}
+}
+
+body#contact .contact a,
+.contact a:active, {
+	background-position: -92px 0;
+}
+
+.blog { 
+	width: 108px; 
+	margin-right: 77px;
+	a { 
+		padding-top: 107px; height:32;
+		background-image: url(../img/sprite-blog.png); 
+	}
+}
+
+body#blog .blog a,
+.blog a:active, {
+	background-position: -108px 0;
+}
+
+/*@-moz-document url-prefix() {
+	* { font-weight: 100; }
+	h1, h2, h3, h4, h5, h6 { 
+		font-weight: 400;
+	}
+}*/
+
+@import "html5boilerplate-outro.less";

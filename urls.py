@@ -1,17 +1,42 @@
 from django.conf.urls.defaults import patterns, include, url
+from django.contrib.auth import views as auth_views
+from django.contrib import admin
+from django.conf import settings
 
-# Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
+admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'imgnation.views.home', name='home'),
-    # url(r'^imgnation/', include('imgnation.foo.urls')),
+	url(r'^portfolio/(?P<slug>[\w_-]+)/$', 'imgnation.portfolio.views.trabalhos', name='portfolio'),
+	url(r'^games/$', 'imgnation.portfolio.views.games', name='games'),
+	url(r'^apps/$', 'imgnation.portfolio.views.apps', name='apps'),
+	url(r'^contact/$', 'imgnation.contato.views.contato', name='contato'),
+	url(r'^contact/thank-you/$', 'imgnation.contato.views.contato_enviado', name='contato_enviado'),
+	
+	# url(r'^contato/obrigado/$', 'nossoalmoco.Contato.views.contato_enviado'),
 
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
 )
+
+	
+urlpatterns += patterns('django.views.generic.simple',
+	url(r'^$', 'direct_to_template', { 'template' : 'pages/home.html'}, name='home'),
+	url(r'^blog/$', 'direct_to_template',{ 'template' : 'pages/blog.html'}, name='blog'),
+	url(r'^about/$', 'direct_to_template', { 'template' : 'pages/about.html'}, name='about'),
+	url(r'^404/$', 'direct_to_template', { 'template' : '404.html'}, name='404'),
+	# url(r'^contact/thank-you/$', 'direct_to_template', { 'template' : 'pages/contact_sent.html'}, name='contact_sent'),
+)
+
+
+# admin stuff
+urlpatterns += patterns('',
+	(r'^i18n/', include('django.conf.urls.i18n')),
+	(r'^grappelli/', include('grappelli.urls')),
+	url(r'^admin/', include(admin.site.urls)),
+	url(r'^admin/filebrowser/', include('filebrowser.urls')),
+	url(r'^admin_tools/', include('admin_tools.urls')),
+)
+
+
+if 'rosetta' in settings.INSTALLED_APPS:
+	urlpatterns += patterns('',
+		url(r'^rosetta/', include('rosetta.urls')),
+	)

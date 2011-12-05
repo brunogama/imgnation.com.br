@@ -1,0 +1,51 @@
+{% extends "layout/default.html" %}
+{% load l10n %}
+{% load i18n %}
+
+{# Tag Title #}
+{% block title %}{% trans 'Contact' %} | {% endblock %}
+
+{# metag title #}
+{% block metatitle %}{% trans 'Contact' %}{% endblock %}
+
+{# id tag body #}
+{% block bodyid %}contact{% endblock %}
+
+
+{% block conteudo %}
+	<div>
+		<p>IMGNATION STUDIOS</p>
+		<p>{% trans 'Address' %}:</p>
+		<ul class="address">
+			<li><span class="street-address">Av. Roraima, nº 3, ITSM, módulo 14 </span></li>
+			<li><span class="zip-code">CEP: 97105-900 </span></li>
+			<li><span class="region city state country">Santa Maria - Rio Grande do Sul - Brazil</span></li>
+			<li><a href="mailto:contato@imgnation.com.br">contato@imgnation.com.br</a></li>
+			<li class="tel"><span>+55 (55) 9173 6397</span> // <span>+55 (55) 9936 4664</span></li>
+		</ul>
+	</div>
+	<div>
+		<h2>{% trans 'Contact' %}</h2>
+		
+		<form action="{% url contato %}" method="POST" accept-charset="utf-8">
+			<ol>
+			    <li>
+			        <input type="text" name="name" id="id_name" placeholder="{% trans 'Name' %}:" autofocus required>
+					{{ form.name.errors }}
+			    </li>
+			    <li>
+			        <input type="text" name="email"  id="id_email" placeholder="E-mail:" required>
+					{{ form.email.errors }}
+			    </li>
+			    <li>
+			        <textarea name="message" id="id_message" placeholder="{% trans 'Message' %}:" required></textarea>
+					{{ form.message.errors }}
+			    </li>
+			    <li>
+					{% csrf_token %}
+			    	<button type="submit">{% trans 'Send' %}</button>
+			    </li>
+			</ol>
+		</form>
+	</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "layout/default.html" %}
+{% load l10n %}
+{% load i18n %}
+
+{# Tag Title #}
+{% block title %}{% trans 'Not Found' %} | {% endblock %}
+
+{# metag title #}
+{% block metatitle %}{% trans 'Not Found' %}{% endblock %}
+
+{# id tag body #}
+{% block bodyid %}not-found{% endblock %}
+
+
+{% block conteudo %}
+<div></div>
+<div>
+	<h2>{% trans 'Not Found!' %} <span>:(</span></h2>
+	<p>
+		{% trans 'Sorry, but the page you were trying to view does not exist.' %} 
+	</p>
+</div>
+{% endblock %}

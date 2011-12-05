@@ -1,0 +1,13 @@
+{% load urli18n_tags %}
+{% load i18n %}
+<footer>
+	<nav>
+	    <ul id=nav>
+	        <li class=about><a href="{{'/about/'|transform_url}}">{% trans 'About' %}</a></li>
+	        <li class=games><a href="{{'/games/'|transform_url}}">{% trans 'Games' %}</a></li>
+	        <li class=apps><a href="{{'/apps/'|transform_url}}">{% trans 'Apps' %}</a></li>
+	        <li class=blog><a href="{{'/blog/'|transform_url}}">{% trans 'Blog' %}</a></li>
+	        <li class=contact><a href="{{'/contact/'|transform_url}}">{% trans 'Contact' %}</a></li>
+	    </ul>
+	</nav>
+</footer>

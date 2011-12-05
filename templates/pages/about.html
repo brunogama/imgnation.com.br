@@ -1,0 +1,22 @@
+{% extends "layout/default.html" %}
+
+{% load l10n %}
+{% load i18n %}
+
+{% block title %}{% trans 'About' %} | {% endblock %}
+
+{% block metatitle %}{% trans 'About' %}{% endblock %}
+
+{% block bodyid %}about{% endblock %}
+
+{% block conteudo %}
+<div></div>
+<div><h2>IMGNATION Studios</h2>
+
+<p>{% trans 'about.p1' %} </p>
+
+<p>{% trans 'about.p2' %} </p>
+
+<p>{% trans 'about.p3' %}</p></div>
+
+{% endblock %}

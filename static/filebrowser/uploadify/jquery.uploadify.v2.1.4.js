@@ -1,0 +1,1 @@
+/Users/windu/.virtualenvs/imgnation/lib/python2.7/site-packages/filebrowser/static/filebrowser/uploadify/jquery.uploadify.v2.1.4.js

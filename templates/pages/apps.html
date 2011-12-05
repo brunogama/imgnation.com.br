@@ -1,0 +1,35 @@
+{% extends "layout/default.html" %}
+
+{% load l10n %}
+{% load i18n %}
+
+{% block title %}{% trans 'Apps' %} | {% endblock %}
+
+{% block metatitle %}{% trans 'Apps' %}{% endblock %}
+
+{% block bodyid %}apps{% endblock %}
+
+{% block conteudo %}
+
+{% for app in apps %}
+<div>
+
+	{% for img in app.images.all %}
+	<img src="{{ MEDIA_URL }}{{ img.image }}" alt="{{ img.short_description }}">
+	{% empty %}
+	{% trans 'Nada registrado' %}
+	{% endfor %}
+	</div>
+<div>
+	<h2>{{ app.name }}</h2>
+	{% autoescape off %}
+	    {{ app.description }}
+	{% endautoescape %}
+	<p>
+	{% if app.url %}
+		<a href={{ app.url }}>{% trans 'Para saber mais visite o site.' %}</a>
+	{% endif %}
+</div>
+{% endfor %}
+
+{% endblock %}

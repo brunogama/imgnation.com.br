@@ -1,0 +1,19 @@
+{% extends "layout/default.html" %}
+{% load l10n %}
+{% load i18n %}
+
+{# Tag Title #}
+{% block title %}{% trans 'Blog' %} | {% endblock %}
+
+{# metag title #}
+{% block metatitle %}{% trans 'Blog' %}{% endblock %}
+
+{# id tag body #}
+{% block bodyid %}blog{% endblock %}
+
+
+{% block conteudo %}
+	<p>
+		{% trans 'Coming Soon' %} 
+	</p>
+{% endblock %}

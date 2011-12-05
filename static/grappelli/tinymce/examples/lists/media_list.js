@@ -1,0 +1,1 @@
+/Users/windu/.virtualenvs/imgnation/lib/python2.7/site-packages/grappelli/static/grappelli/tinymce/examples/lists/media_list.js

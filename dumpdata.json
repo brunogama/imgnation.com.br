@@ -1,0 +1,1392 @@
+[
+    {
+        "pk": 22, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_logentry", 
+            "name": "Can add log entry", 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_logentry", 
+            "name": "Can change log entry", 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_logentry", 
+            "name": "Can delete log entry", 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_app", 
+            "name": "Can add app", 
+            "content_type": 19
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_app", 
+            "name": "Can change app", 
+            "content_type": 19
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_app", 
+            "name": "Can delete app", 
+            "content_type": 19
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_appcategory", 
+            "name": "Can add app category", 
+            "content_type": 18
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_appcategory", 
+            "name": "Can change app category", 
+            "content_type": 18
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_appcategory", 
+            "name": "Can delete app category", 
+            "content_type": 18
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_group", 
+            "name": "Can add group", 
+            "content_type": 2
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_group", 
+            "name": "Can change group", 
+            "content_type": 2
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_group", 
+            "name": "Can delete group", 
+            "content_type": 2
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_message", 
+            "name": "Can add message", 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_message", 
+            "name": "Can change message", 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_message", 
+            "name": "Can delete message", 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_permission", 
+            "name": "Can add permission", 
+            "content_type": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_permission", 
+            "name": "Can change permission", 
+            "content_type": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_permission", 
+            "name": "Can delete permission", 
+            "content_type": 1
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_user", 
+            "name": "Can add user", 
+            "content_type": 3
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_user", 
+            "name": "Can change user", 
+            "content_type": 3
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_user", 
+            "name": "Can delete user", 
+            "content_type": 3
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_contenttype", 
+            "name": "Can add content type", 
+            "content_type": 5
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_contenttype", 
+            "name": "Can change content type", 
+            "content_type": 5
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_contenttype", 
+            "name": "Can delete content type", 
+            "content_type": 5
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_dashboardpreferences", 
+            "name": "Can add dashboard preferences", 
+            "content_type": 24
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_dashboardpreferences", 
+            "name": "Can change dashboard preferences", 
+            "content_type": 24
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_dashboardpreferences", 
+            "name": "Can delete dashboard preferences", 
+            "content_type": 24
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_flatpage", 
+            "name": "Can add flat page", 
+            "content_type": 17
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_flatpage", 
+            "name": "Can change flat page", 
+            "content_type": 17
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_flatpage", 
+            "name": "Can delete flat page", 
+            "content_type": 17
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_dontsendentry", 
+            "name": "Can add don't send entry", 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_dontsendentry", 
+            "name": "Can change don't send entry", 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_dontsendentry", 
+            "name": "Can delete don't send entry", 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_message", 
+            "name": "Can add message", 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_message", 
+            "name": "Can change message", 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_message", 
+            "name": "Can delete message", 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_messagelog", 
+            "name": "Can add message log", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_messagelog", 
+            "name": "Can change message log", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_messagelog", 
+            "name": "Can delete message log", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_bookmark", 
+            "name": "Can add bookmark", 
+            "content_type": 23
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_bookmark", 
+            "name": "Can change bookmark", 
+            "content_type": 23
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_bookmark", 
+            "name": "Can delete bookmark", 
+            "content_type": 23
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_notice", 
+            "name": "Can add notice", 
+            "content_type": 14
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_notice", 
+            "name": "Can change notice", 
+            "content_type": 14
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_notice", 
+            "name": "Can delete notice", 
+            "content_type": 14
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_noticequeuebatch", 
+            "name": "Can add notice queue batch", 
+            "content_type": 15
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_noticequeuebatch", 
+            "name": "Can change notice queue batch", 
+            "content_type": 15
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_noticequeuebatch", 
+            "name": "Can delete notice queue batch", 
+            "content_type": 15
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_noticesetting", 
+            "name": "Can add notice setting", 
+            "content_type": 13
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_noticesetting", 
+            "name": "Can change notice setting", 
+            "content_type": 13
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_noticesetting", 
+            "name": "Can delete notice setting", 
+            "content_type": 13
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_noticetype", 
+            "name": "Can add notice type", 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_noticetype", 
+            "name": "Can change notice type", 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_noticetype", 
+            "name": "Can delete notice type", 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_observeditem", 
+            "name": "Can add observed item", 
+            "content_type": 16
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_observeditem", 
+            "name": "Can change observed item", 
+            "content_type": 16
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_observeditem", 
+            "name": "Can delete observed item", 
+            "content_type": 16
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_categoria", 
+            "name": "Can add categoria", 
+            "content_type": 25
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_categoria", 
+            "name": "Can change categoria", 
+            "content_type": 25
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_categoria", 
+            "name": "Can delete categoria", 
+            "content_type": 25
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_imagem", 
+            "name": "Can add imagem", 
+            "content_type": 32
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_imagem", 
+            "name": "Can change imagem", 
+            "content_type": 32
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_imagem", 
+            "name": "Can delete imagem", 
+            "content_type": 32
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_trabalho", 
+            "name": "Can add trabalho", 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_trabalho", 
+            "name": "Can change trabalho", 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 81, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_trabalho", 
+            "name": "Can delete trabalho", 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 85, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_rule", 
+            "name": "Can add rule", 
+            "content_type": 31
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_rule", 
+            "name": "Can change rule", 
+            "content_type": 31
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_rule", 
+            "name": "Can delete rule", 
+            "content_type": 31
+        }
+    }, 
+    {
+        "pk": 82, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_url", 
+            "name": "Can add url", 
+            "content_type": 30
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_url", 
+            "name": "Can change url", 
+            "content_type": 30
+        }
+    }, 
+    {
+        "pk": 84, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_url", 
+            "name": "Can delete url", 
+            "content_type": 30
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_session", 
+            "name": "Can add session", 
+            "content_type": 6
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_session", 
+            "name": "Can change session", 
+            "content_type": 6
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_session", 
+            "name": "Can delete session", 
+            "content_type": 6
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_site", 
+            "name": "Can add site", 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_site", 
+            "name": "Can change site", 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_site", 
+            "name": "Can delete site", 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_trabalho", 
+            "name": "Can add trabalho", 
+            "content_type": 22
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_trabalho", 
+            "name": "Can change trabalho", 
+            "content_type": 22
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_trabalho", 
+            "name": "Can delete trabalho", 
+            "content_type": 22
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_trabalhocategory", 
+            "name": "Can add Categoria", 
+            "content_type": 20
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_trabalhocategory", 
+            "name": "Can change Categoria", 
+            "content_type": 20
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_trabalhocategory", 
+            "name": "Can delete Categoria", 
+            "content_type": 20
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_trabalhoimage", 
+            "name": "Can add Imagem", 
+            "content_type": 21
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_trabalhoimage", 
+            "name": "Can change Imagem", 
+            "content_type": 21
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_trabalhoimage", 
+            "name": "Can delete Imagem", 
+            "content_type": 21
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "auth.group", 
+        "fields": {
+            "name": "translators", 
+            "permissions": []
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "auth.user", 
+        "fields": {
+            "username": "Bruno", 
+            "first_name": "Bruno", 
+            "last_name": "Gama", 
+            "is_active": true, 
+            "is_superuser": true, 
+            "is_staff": true, 
+            "last_login": "2011-11-24 18:38:46", 
+            "groups": [], 
+            "user_permissions": [], 
+            "password": "sha1$94047$92f2efbe65339a626436ff3a5c8e612cc2679787", 
+            "email": "bruno@imgnation.com.br", 
+            "date_joined": "2011-11-04 17:23:32"
+        }
+    }, 
+    {
+        "pk": "6d78e7547fc6325bacc7feca2d4e4622", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2011-11-18 17:30:50", 
+            "session_data": "OTk5ZGE1YzNmZTQyZTBkN2IyNWIzYTkxMWM1MDgwNzMyNzY5YzhjYzqAAn1xAVUKdGVzdGNvb2tp\nZVUGd29ya2VkcQJzLg==\n"
+        }
+    }, 
+    {
+        "pk": "fa944290c63ec0f6c388fab2f9d6e755", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2011-11-18 19:16:06", 
+            "session_data": "NmNmZTJhZWY3MjQ5OThiODI3Y2IzZWYwZTliZGY2YThjYTI1OWZkYTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"
+        }
+    }, 
+    {
+        "pk": "a888fd0c50991d47390640c97c4dd20a", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2011-11-24 18:15:48", 
+            "session_data": "NmNmZTJhZWY3MjQ5OThiODI3Y2IzZWYwZTliZGY2YThjYTI1OWZkYTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"
+        }
+    }, 
+    {
+        "pk": "28424550aefe7524daeabf67cd91a249", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2011-12-14 17:30:37", 
+            "session_data": "MjA1NWYzYmI2OWVhZjMxZTJkMmRlNTA2YzhmOWM1ZDExMzFmNjg1NjqAAn1xAShVDV9hdXRoX3Vz\nZXJfaWRLAVUWcm9zZXR0YV9pMThuX2xhbmdfY29kZVgFAAAAcHQtYnJVEnJvc2V0dGFfaTE4bl93\ncml0ZYhVG3Jvc2V0dGFfaTE4bl9jYXRhbG9nX2ZpbHRlclgHAAAAcHJvamVjdFUSX2F1dGhfdXNl\ncl9iYWNrZW5kVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZFUWcm9z\nZXR0YV9pMThuX2xhbmdfbmFtZVgKAAAAUG9ydHVndcOqc1UPcm9zZXR0YV9pMThuX2ZuWEYAAAAv\nVXNlcnMvd2luZHUvU2l0ZXMvZGphbmdvL2ltZ25hdGlvbi9sb2NhbGUvcHRfQlIvTENfTUVTU0FH\nRVMvZGphbmdvLnBvcQJVE3Jvc2V0dGFfaTE4bl9wb2ZpbGVjcm9zZXR0YS5wb2xpYgpQT0ZpbGUK\ncQMpgXEEKGNyb3NldHRhLnBvbGliClBPRW50cnkKcQUpgXEGfXEHKFUHY29tbWVudHEIVQBVEHBy\nZXZpb3VzX21zZ2N0eHRxCU5VBm1zZ3N0cnEKWAAAAABVB21kNWhhc2hxC1UgN2E3YTIyNzk5NDli\nNjAzMDNhMzYzYzM5NjRmYzE1ZmVVCGVuY29kaW5ncQxVBXV0Zi04cQ1VBW1zZ2lkcQ5YFQAAAEFw\ncExpc3Q6IEFwcGxpY2F0aW9uc1UIdGNvbW1lbnRxD1UAVQxtc2dpZF9wbHVyYWxxEFUAVQhvYnNv\nbGV0ZXERSwBVDW1zZ3N0cl9wbHVyYWxxEn1VC29jY3VycmVuY2VzcRNdcRRYDAAAAGRhc2hib2Fy\nZC5weVgCAAAANDeGcRVhVQdtc2djdHh0cRZOVQVmbGFnc3EXXVUOcHJldmlvdXNfbXNnaWRxGE5V\nFXByZXZpb3VzX21zZ2lkX3BsdXJhbHEZTnViaAUpgXEafXEbKGgIVQBoCU5oClgAAAAAaAtVIGY4\nN2Q1YjU5ZjQwZmZkZjJlZWQ5ZWY2ZTJhNmRlYzk4aAxoDWgOWBkAAABNb2RlbExpc3Q6IEFkbWlu\naXN0cmF0aW9uaA9VAGgQVQBoEUsAaBJ9aBNdcRxYDAAAAGRhc2hib2FyZC5weVgCAAAANTaGcR1h\naBZOaBddaBhOaBlOdWJoBSmBcR59cR8oaAhVAGgJTmgKWAAAAABoC1UgZGI2YzdmNzYwZTkzMmY3\nZDE4NTM4ZGYzYmJjNDJkNDdoDGgNaA5YEAAAAE1lZGlhIE1hbmFnZW1lbnRoD1UAaBBVAGgRSwBo\nEn1oE11xIFgMAAAAZGFzaGJvYXJkLnB5WAIAAAA2NIZxIWFoFk5oF11oGE5oGU51YmgFKYFxIn1x\nIyhoCFUAaAlOaApYAAAAAGgLVSAxYjM0Y2QzMTQwZjU2YWY3MzhiZTViMDI3NWQyZjhmN2gMaA1o\nDlgLAAAARmlsZUJyb3dzZXJoD1UAaBBVAGgRSwBoEn1oE11xJFgMAAAAZGFzaGJvYXJkLnB5WAIA\nAAA2OIZxJWFoFk5oF11oGE5oGU51YmgFKYFxJn1xJyhoCFUAaAlOaApYAAAAAGgLVSBkYjVlYjg0\nMTE3ZDA2MDQ3Yzk3YzlhMDE5MWI1ZmZmZWgMaA1oDlgHAAAAU3VwcG9ydGgPVQBoEFUAaBFLAGgS\nfWgTXXEoWAwAAABkYXNoYm9hcmQucHlYAgAAADc3hnEpYWgWTmgXXWgYTmgZTnViaAUpgXEqfXEr\nKGgIVQBoCU5oClgAAAAAaAtVIDJiMjBmMWIxMGEyMTU3MmNjOTdlMmE4N2M5MDEzYTBiaAxoDWgO\nWBQAAABEamFuZ28gRG9jdW1lbnRhdGlvbmgPVQBoEFUAaBFLAGgSfWgTXXEsWAwAAABkYXNoYm9h\ncmQucHlYAgAAADgxhnEtYWgWTmgXXWgYTmgZTnViaAUpgXEufXEvKGgIVQBoCU5oClgAAAAAaAtV\nIDE2NTM3MTc2OGM1ZDE3NzM1YTc4OTg2YmZhNDIxNGZkaAxoDWgOWBcAAABHcmFwcGVsbGkgRG9j\ndW1lbnRhdGlvbmgPVQBoEFUAaBFLAGgSfWgTXXEwWAwAAABkYXNoYm9hcmQucHlYAgAAADg2hnEx\nYWgWTmgXXWgYTmgZTnViaAUpgXEyfXEzKGgIVQBoCU5oClgAAAAAaAtVIDcwNmI3NzlhZTc0M2Q3\nNGI5OTJiZDU4OTAyMDQ1OGEzaAxoDWgOWBUAAABHcmFwcGVsbGkgR29vZ2xlLUNvZGVoD1UAaBBV\nAGgRSwBoEn1oE11xNFgMAAAAZGFzaGJvYXJkLnB5WAIAAAA5MYZxNWFoFk5oF11oGE5oGU51YmgF\nKYFxNn1xNyhoCFUAaAlOaApYAAAAAGgLVSBjMmZjNDY2NjkxMjk1MTIwZjhmMjZlNzQzNTI5NDNh\nMmgMaA1oDlgSAAAATGF0ZXN0IERqYW5nbyBOZXdzaA9VAGgQVQBoEUsAaBJ9aBNdcThYDAAAAGRh\nc2hib2FyZC5weVgDAAAAMTAwhnE5YWgWTmgXXWgYTmgZTnViaAUpgXE6fXE7KGgIVQBoCU5oClgA\nAAAAaAtVIDkxMjgyN2JlZTI3ZmI0MjljNDc1NWVmOGI0NTdlOGFkaAxoDWgOWA4AAABSZWNlbnQg\nQWN0aW9uc2gPVQBoEFUAaBFLAGgSfWgTXXE8WAwAAABkYXNoYm9hcmQucHlYAwAAADEwOIZxPWFo\nFk5oF11oGE5oGU51YmgFKYFxPn1xPyhoCFUAaAlOaApYCgAAAFBvcnR1Z3XDqnNoC1UgYTIyMjNm\nODcyNzY0NjgyMWI2MThlY2UyZWVmNDYyYmFoDGgNaA5YCgAAAFBvcnR1Z3XDqnNoD1UAaBBVAGgR\nSwBoEn1oE11xQFgLAAAAc2V0dGluZ3MucHlYAgAAADU2hnFBYWgWTmgXXWgYTmgZTnViaAUpgXFC\nfXFDKGgIVQBoCU5oClgHAAAARW5nbGlzaGgLVSBkODk2YjYzMjA1Nzc5YjFiMDllODZkOTQxY2Ux\nMzk3NmgMaA1oDlgHAAAARW5nbGlzaGgPVQBoEFUAaBFLAGgSfWgTXXFEWAsAAABzZXR0aW5ncy5w\neVgCAAAANTeGcUVhaBZOaBddaBhOaBlOdWJoBSmBcUZ9cUcoaAhVAGgJTmgKWAwAAABQYXJhIG8g\nVGV4dG9oC1UgOTk0NmRkNDFjNThlYmI3NzgwMDU5YWIwNWZiMWM5OGRoDGgNaA5YDgAAAEdvIHRv\nIHRoZSBUZXh0aA9VAGgQVQBoEUsAaBJ9aBNdcUhYHQAAAHRlbXBsYXRlcy9sYXlvdXQvZGVmYXVs\ndC5odG1sWAIAAAA1MIZxSWFoFk5oF11oGE5oGU51YmgFKYFxSn1xSyhoCFUAaAlOaApYGgAAAFBh\ncmEgbyBtZW51IGRlIG5hdmVnYcOnw6NvaAtVIDk0YTVjYTgzYjMzN2ZjMzYzZTQ0ZDkxY2FmM2Ji\nMjBhaAxoDWgOWBkAAABHbyB0byB0aGUgTmF2aWdhdGlvbiBNZW51aA9VAGgQVQBoEUsAaBJ9aBNd\ncUxYHQAAAHRlbXBsYXRlcy9sYXlvdXQvZGVmYXVsdC5odG1sWAIAAAA1M4ZxTWFoFk5oF11oGE5o\nGU51YmgFKYFxTn1xTyhoCFUAaAlOaApYBQAAAFNvYnJlaAtVIGVhNmNhYzQzYjA3NzViYzI3MjVh\nYjFhNTk3NmQxMGQxaAxoDWgOWAUAAABBYm91dGgPVQBoEFUAaBFLAGgSfWgTXXFQKFgcAAAAdGVt\ncGxhdGVzL2xheW91dC9mb290ZXIuaHRtbFgBAAAANYZxUVgaAAAAdGVtcGxhdGVzL3BhZ2VzL2Fi\nb3V0Lmh0bWxYAQAAADaGcVJYHQAAAHRlbXBsYXRlcy9wYWdlcy9hYm91dC5odG1sLnB5WAEAAAA4\nhnFTZWgWTmgXXWgYTmgZTnViaAUpgXFUfXFVKGgIVQBoCU5oClgFAAAASm9nb3NoC1UgNTJhYmUy\nYmNmYWVhMmY3MThmZTFmZmZhMjhiZjRhMjVoDGgNaA5YBQAAAEdhbWVzaA9VAGgQVQBoEUsAaBJ9\naBNdcVZYHAAAAHRlbXBsYXRlcy9sYXlvdXQvZm9vdGVyLmh0bWxYAQAAADaGcVdhaBZOaBddaBhO\naBlOdWJoBSmBcVh9cVkoaAhVAGgJTmgKWAQAAABBcHBzaAtVIDcyNTY3ODkzMTlkNWMzM2QzMjhl\nM2ZhN2ExNzBjNzI0aAxoDWgOWAQAAABBcHBzaA9VAGgQVQBoEUsAaBJ9aBNdcVpYHAAAAHRlbXBs\nYXRlcy9sYXlvdXQvZm9vdGVyLmh0bWxYAQAAADeGcVthaBZOaBddaBhOaBlOdWJoBSmBcVx9cV0o\naAhVAGgJTmgKWAQAAABCbG9naAtVIGUyNTZhMjlhMzAxYjYwZWIzM2E0ZTYyYmFlMGE1MmQ5aAxo\nDWgOWAQAAABCbG9naA9VAGgQVQBoEUsAaBJ9aBNdcV5YHAAAAHRlbXBsYXRlcy9sYXlvdXQvZm9v\ndGVyLmh0bWxYAQAAADiGcV9haBZOaBddaBhOaBlOdWJoBSmBcWB9cWEoaAhVAGgJTmgKWAcAAABD\nb250YXRvaAtVIDEwYjBlNzMwMTVjNWJmY2ZjM2VlYzg5YmJhM2FhM2M2aAxoDWgOWAcAAABDb250\nYWN0aA9VAGgQVQBoEUsAaBJ9aBNdcWJYHAAAAHRlbXBsYXRlcy9sYXlvdXQvZm9vdGVyLmh0bWxY\nAQAAADmGcWNhaBZOaBddaBhOaBlOdWJoBSmBcWR9cWUoaAhVAGgJTmgKWB0AAABWb2x0YXIgcGFy\nYSBQw6FnaW5hIFByaW5jaXBhbGgLVSBmNDI5NGNiMmFjYTk0NjdiNWIxMGVjMzkwZmU3NzhhNmgM\naA1oDlgYAAAAQmFjayB0byBUaGUgTGFuZGluZyBQYWdlaA9VAGgQVQBoEUsAaBJ9aBNdcWZYHAAA\nAHRlbXBsYXRlcy9sYXlvdXQvaGVhZGVyLmh0bWxYAgAAADE4hnFnYWgWTmgXXWgYTmgZTnViaAUp\ngXFofXFpKGgIVQBoCU5oClijAAAASU1HTkFUSU9OIFN0dWRpb3Mgw6kgdW1hIGVtcHJlc2EgZGUg\nZGVzZW52b2x2aW1lbnRvIGRlIGFwbGljYXRpdm9zIG3Ds3ZlaXMsIHF1ZSBhbWEgZmF6ZXIgam9n\nb3Mgb3JpZ2luYWlzIGUgcHJvcG9yY2lvbmFyIGFvIHVzdcOhcmlvIGEgbWVsaG9yIGV4cGVyacOq\nbmNpYSBlbSBhcHBzLmgLVSA0NzhkYWRjNDk2NmE1MTc5NWY2OTAwMmI3YzhkMTYwZmgMaA1oDlgI\nAAAAYWJvdXQucDFoD1UAaBBVAGgRSwBoEn1oE11xalgaAAAAdGVtcGxhdGVzL3BhZ2VzL2Fib3V0\nLmh0bWxYAgAAADE1hnFrYWgWTmgXXWgYTmgZTnViaAUpgXFsfXFtKGgIVQBoCU5oCljfAAAAQSBJ\nTUdOQVRJT04gY29tZcOnb3Ugc3VhcyBhdGl2aWRhZGVzIGVtIDIwMDcgY29tbyB1bWEgZW1wcmVz\nYSBkZSBpbHVzdHJhw6fDo28gZSA8ZW0+Y29uY2VwIGFydDwvZW0+LCBhdHJhdsOpcyBkb3MgYW5v\ncyBhIGVtcHJlc2EgZXZvbHVpdSBwYXJhIHVtIHRpbWUgY29tcGxldG8gZGUgZGVzZW52b2x2aW1l\nbnRvLCBjb21wcm9tZXRpZG8gZW0gdHJhemVyIGpvZ29zIGUgYXBwcyDDoCB2aWRhLmgLVSAwNTM4\nNTQ1NjFlZDE4OTRmMDY0MzE1N2Q3ZWI2MjAzZWgMaA1oDlgIAAAAYWJvdXQucDJoD1UAaBBVAGgR\nSwBoEn1oE11xblgaAAAAdGVtcGxhdGVzL3BhZ2VzL2Fib3V0Lmh0bWxYAgAAADE3hnFvYWgWTmgX\nXWgYTmgZTnViaAUpgXFwfXFxKGgIVQBoCU5oClgqAAAATm9zc2Egc2VkZSDDqSBsb2NhbGl6YWRh\nIG5vIHN1bCBkbyBCcmFzaWwuaAtVIDEzMWQxOTY1YjFlMTIzMTY5MDdkYjU1YmYwZWU1NzdkaAxo\nDWgOWAgAAABhYm91dC5wM2gPVQBoEFUAaBFLAGgSfWgTXXFyWBoAAAB0ZW1wbGF0ZXMvcGFnZXMv\nYWJvdXQuaHRtbFgCAAAAMTmGcXNhaBZOaBddaBhOaBlOdWJoBSmBcXR9cXUoaAhVAGgJTmgKWBoA\nAABGYXplbW9zIDxzcGFuPkpvZ29zPC9zcGFuPmgLVSAwNDYyZjYyOWNlNjQyYWEwNzA5ZGI5OTMw\nNTFkNDViMGgMaA1oDlgNAAAAV2UgbWFrZSBHYW1lc2gPVQBoEFUAaBFLAGgSfWgTXXF2WBkAAAB0\nZW1wbGF0ZXMvcGFnZXMvaG9tZS5odG1sWAEAAAA4hnF3YWgWTmgXXWgYTmgZTnViaAUpgXF4fXF5\nKGgIVQBoCU5oClgZAAAARmF6ZW1vcyA8c3Bhbj5BcHBzPC9zcGFuPmgLVSA4MTM3ZWU2MDJkNThh\nZDgyYzdhZGViZWE2Y2IzNWIzNmgMaA1oDlgMAAAAV2UgbWFrZSBBcHBzaA9VAGgQVQBoEUsAaBJ9\naBNdcXpYGQAAAHRlbXBsYXRlcy9wYWdlcy9ob21lLmh0bWxYAgAAADExhnF7YWgWTmgXXWgYTmgZ\nTnViaAUpgXF8fXF9KGgIVQBoCU5oClgkAAAARSBuw7NzIDxzcGFuPmFtYW1vczwvc3Bhbj4gZmF6\nw6otbG9zaAtVIGM2MmY1MjI1YjJlOWYyOTM4MWMyY2Y0ZGZhYjk2Nzk0aAxoDWgOWBgAAABBbmQg\nd2UgbG92ZSB0byBtYWtlIHRoZW1oD1UAaBBVAGgRSwBoEn1oE11xflgZAAAAdGVtcGxhdGVzL3Bh\nZ2VzL2hvbWUuaHRtbFgCAAAAMTSGcX9haBZOaBddaBhOaBlOdWJlfXGAKGgMVQVVVEYtOFUJd3Jh\ncHdpZHRocYFLTlUFZnBhdGhxgmgCVQZoZWFkZXJxg1i2AAAAU09NRSBERVNDUklQVElWRSBUSVRM\nRS4KQ29weXJpZ2h0IChDKSBZRUFSIFRIRSBQQUNLQUdFJ1MgQ09QWVJJR0hUIEhPTERFUgpUaGlz\nIGZpbGUgaXMgZGlzdHJpYnV0ZWQgdW5kZXIgdGhlIHNhbWUgbGljZW5zZSBhcyB0aGUgUEFDS0FH\nRSBwYWNrYWdlLgpGSVJTVCBBVVRIT1IgPEVNQUlMQEFERFJFU1M+LCBZRUFSLgpVFGNoZWNrX2Zv\ncl9kdXBsaWNhdGVzcYSJVRFtZXRhZGF0YV9pc19mdXp6eXGFXXGGWAUAAABmdXp6eXGHYVUIbWV0\nYWRhdGFxiH1xiShYEAAAAFBPLVJldmlzaW9uLURhdGVVEDIwMTEtMTEtMjggMTc6MTlYCAAAAExh\nbmd1YWdlWAAAAABYGQAAAENvbnRlbnQtVHJhbnNmZXItRW5jb2RpbmdYBAAAADhiaXRYEgAAAFgt\nVHJhbnNsYXRlZC1Vc2luZ1gUAAAAZGphbmdvLXJvc2V0dGEgMC42LjJYDAAAAFBsdXJhbC1Gb3Jt\nc1gaAAAAbnBsdXJhbHM9MjsgcGx1cmFsPShuID4gMSlYEgAAAFByb2plY3QtSWQtVmVyc2lvblgP\nAAAAUEFDS0FHRSBWRVJTSU9OWBQAAABSZXBvcnQtTXNnaWQtQnVncy1Ub1gAAAAAWA8AAABMYXN0\nLVRyYW5zbGF0b3JVI0JydW5vIEdhbWEgPGJydW5vQGltZ25hdGlvbi5jb20uYnI+WA0AAABMYW5n\ndWFnZS1UZWFtWBQAAABMQU5HVUFHRSA8TExAbGkub3JnPlgRAAAAUE9ULUNyZWF0aW9uLURhdGVY\nFQAAADIwMTEtMTEtMjYgMDE6NTUtMDIwMFgMAAAAQ29udGVudC1UeXBlWBkAAAB0ZXh0L3BsYWlu\nOyBjaGFyc2V0PVVURi04WAwAAABNSU1FLVZlcnNpb25YAwAAADEuMHV1YlUPZGphbmdvX2xhbmd1\nYWdlWAUAAABwdC1icnGKVRNyb3NldHRhX2kxOG5fZmlsdGVyWAMAAABhbGx1Lg==\n"
+        }
+    }, 
+    {
+        "pk": "207ef6cdc1ec4cf657b391e6c9358e54", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2011-12-09 20:04:51", 
+            "session_data": "NmM2MTFkY2NmZTY1NDQ4NjYwNjk3ZDIzN2Y4Y2NjOGMyNzNkNzAyMzqAAn1xAVUPZGphbmdvX2xh\nbmd1YWdlWAUAAABwdC1icnECcy4=\n"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "sites.site", 
+        "fields": {
+            "domain": "www.imgnation.com.br", 
+            "name": "www.imgnation.com.br"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "notification.noticetype", 
+        "fields": {
+            "default": 1, 
+            "description": "Notifica\u00e7\u00e3o por Email", 
+            "display": "Email", 
+            "label": "Email"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "notification.noticesetting", 
+        "fields": {
+            "notice_type": 1, 
+            "medium": "1", 
+            "user": 1, 
+            "send": true
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "notification.notice", 
+        "fields": {
+            "archived": false, 
+            "added": "2011-11-17 19:38:45", 
+            "on_site": false, 
+            "notice_type": 1, 
+            "user": 1, 
+            "unseen": true, 
+            "message": "teste"
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-29 19:30:28", 
+            "object_repr": "Nosso Almo\u00e7o de Todo Dia", 
+            "object_id": "2", 
+            "change_message": "Modificado description_pt-br.", 
+            "user": 1, 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-29 19:30:06", 
+            "object_repr": "Nosso Almo\u00e7o de Todo Dia", 
+            "object_id": "2", 
+            "change_message": "Modificado description_pt-br.", 
+            "user": 1, 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-29 19:17:39", 
+            "object_repr": "Nosso Almo\u00e7o de Todo Dia", 
+            "object_id": "2", 
+            "change_message": "Modificado description_pt-br e description_en.", 
+            "user": 1, 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-29 19:06:59", 
+            "object_repr": "Nosso Almo\u00e7o de Todo Dia", 
+            "object_id": "2", 
+            "change_message": "Modificado url_pt-br.", 
+            "user": 1, 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-29 19:01:59", 
+            "object_repr": "Nosso Almo\u00e7o de Todo Dia", 
+            "object_id": "2", 
+            "change_message": "Modificado images.", 
+            "user": 1, 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-29 19:01:55", 
+            "object_repr": "Nosso Almo\u00e7o de Todo Dia (iPad e iPhone)", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 32
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-29 18:59:50", 
+            "object_repr": "Nosso Almo\u00e7o de Todo Dia", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-29 18:06:37", 
+            "object_repr": "Dodge This!", 
+            "object_id": "1", 
+            "change_message": "Changed description_pt-br.", 
+            "user": 1, 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-29 17:40:18", 
+            "object_repr": "Dodge This!", 
+            "object_id": "1", 
+            "change_message": "Changed description_pt-br, description_en and images.", 
+            "user": 1, 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-28 20:05:53", 
+            "object_repr": "Dodge This! Teaser Image", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 32
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-28 20:03:51", 
+            "object_repr": "Dodge This!", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 27
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-28 18:27:30", 
+            "object_repr": "Sites", 
+            "object_id": "3", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 25
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-28 18:27:21", 
+            "object_repr": "Apps", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 25
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-28 18:27:12", 
+            "object_repr": "Games", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 25
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-24 20:53:07", 
+            "object_repr": "translators", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 2
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-24 18:45:40", 
+            "object_repr": "/ -- Home", 
+            "object_id": "2", 
+            "change_message": "Modificado url.", 
+            "user": 1, 
+            "content_type": 17
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-24 18:45:30", 
+            "object_repr": "/ -- Home", 
+            "object_id": "1", 
+            "change_message": "Modificado url.", 
+            "user": 1, 
+            "content_type": 17
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-24 18:41:40", 
+            "object_repr": "/pt_BR/ -- Home", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 17
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-24 18:39:29", 
+            "object_repr": "/en/ -- Home", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 17
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-17 19:41:42", 
+            "object_repr": "Email", 
+            "object_id": "1", 
+            "change_message": "Modificado label, display e description.", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 3, 
+            "action_time": "2011-11-17 19:40:56", 
+            "object_repr": "ObservedItem object", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 16
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-17 19:40:45", 
+            "object_repr": "ObservedItem object", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 16
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-17 19:39:51", 
+            "object_repr": "NoticeSetting object", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 13
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-17 19:39:24", 
+            "object_repr": "teste", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 14
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-17 19:39:15", 
+            "object_repr": "teste", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-10 18:37:32", 
+            "object_repr": "a", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 19
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 3, 
+            "action_time": "2011-11-10 18:35:06", 
+            "object_repr": "aa", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 19
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-04 23:29:12", 
+            "object_repr": "aa", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 19
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-04 23:13:54", 
+            "object_repr": "Games", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 18
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-11-04 23:13:48", 
+            "object_repr": "Apps", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 18
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-04 17:44:23", 
+            "object_repr": "Bruno", 
+            "object_id": "1", 
+            "change_message": "Modificado first_name e last_name.", 
+            "user": 1, 
+            "content_type": 3
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-04 17:44:06", 
+            "object_repr": "www.imgnation.com.br", 
+            "object_id": "1", 
+            "change_message": "Modificado domain e name.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "portfolio.categoria", 
+        "fields": {
+            "category_title": "Games", 
+            "creation_date": "2011-11-28 18:27:12"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "portfolio.categoria", 
+        "fields": {
+            "category_title": "Apps", 
+            "creation_date": "2011-11-28 18:27:21"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "portfolio.categoria", 
+        "fields": {
+            "category_title": "Sites", 
+            "creation_date": "2011-11-28 18:27:30"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "portfolio.imagem", 
+        "fields": {
+            "short_description_en": "Dodge This! Teaser Image", 
+            "image": "uploads/Dodge-this_6.png", 
+            "description_en": "", 
+            "creation_date": "2011-11-28 20:05:53", 
+            "description_pt-br": "", 
+            "short_description_pt-br": "Dodge This! Teaser Image"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "portfolio.imagem", 
+        "fields": {
+            "short_description_en": "Our Everyday Lunch (iPad and iPhone)", 
+            "image": "uploads/Our-everyday-lunch.png", 
+            "description_en": "", 
+            "creation_date": "2011-11-29 19:01:55", 
+            "description_pt-br": "", 
+            "short_description_pt-br": "Nosso Almo\u00e7o de Todo Dia (iPad e iPhone)"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "portfolio.trabalho", 
+        "fields": {
+            "category": 1, 
+            "url_pt-br": "", 
+            "description_en": "<p><span>DODGE THIS!</span> is a fun action\r\nshooter for iPhone and iPad, with a whimsical humor, where you have to shoot, with a canon, everyone trying to pass through your bridge.</p>\r\n\r\n<p><span>DODGE THIS!</span> includes 2 game modes and also a wide variety of special ammo, canons and\r\ndifferent envorinments.</p>\r\n\r\n<p><span>Comming Soon!</span></p>\r\n", 
+            "creation_date": "2011-11-28 20:03:51", 
+            "description_pt-br": "<p>\r\n<span>DODGE THIS!</span> \u00e9 um shooter de a\u00e7\u00e3o divertido para iPhone e iPad, com um humor extravagante, onde voc\u00ea tem que atirar, com um canh\u00e3o em  todo mundo  que est\u00e1 tentando passar pela sua ponte.\r\n</p>\r\n<p>\r\n<span>DODGE THIS!</span> tamb\u00e9m inclui dois modos de jogo e uma grande variedade de muni\u00e7\u00e3o especial, canh\u00f5es e cen\u00e1rios diferentes.\r\n</p>", 
+            "url_en": "", 
+            "images": [
+                1
+            ], 
+            "name_en": "Dodge This!", 
+            "slug": "dodge-this", 
+            "name_pt-br": "Dodge This!"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "portfolio.trabalho", 
+        "fields": {
+            "category": 2, 
+            "url_pt-br": "http://www.nossoalmocodetododia.com.br/", 
+            "description_en": "<p><span>OUR EVERYDAY LUNCH</span> is an app to help you planning your week in the kitchen. </p>\r\n\r\n<p>With various menus and recipes, you can also find the best of the everyday brazilian cousine.</p>", 
+            "creation_date": "2011-11-29 18:59:50", 
+            "description_pt-br": "<p><span>Nosso Almo\u00e7o de Todo Dia</span> \u00e9 um app para ajudar o seu planejamento da cozinha durante a semana. </p>\r\n\r\n<p>Cada dia uma receita diferente, divididas em semanas, e ainda dias especiais com receitas mais elaboradas.</p>", 
+            "url_en": "http://www.oureverydaylunch.com/", 
+            "images": [
+                2
+            ], 
+            "name_en": "Our Everyday Lunch", 
+            "slug": "our-everyday-lunch", 
+            "name_pt-br": "Nosso Almo\u00e7o de Todo Dia"
+        }
+    }
+]

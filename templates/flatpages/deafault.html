@@ -1,0 +1,9 @@
+{% extends "layout/base.html" %}
+{% load l10n %}
+{% load i18n %}
+
+{% block title %} {{ flatpage.title }} | {% endblock %}
+{% block bodyid %}{{ flatpage.title|slugify }}{% endblock %}
+{% block conteudo %}
+	{{ flatpage.content }}
+{% endblock %}

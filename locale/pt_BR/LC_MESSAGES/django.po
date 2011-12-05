@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-05 20:20-0200\n"
+"PO-Revision-Date: 2011-12-05 19:14\n"
+"Last-Translator: Bruno Gama <bruno@imgnation.com.br>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Translated-Using: django-rosetta 0.6.2\n"
+
+#: dashboard.py:47
+msgid "AppList: Applications"
+msgstr "Apps"
+
+#: dashboard.py:56
+msgid "ModelList: Administration"
+msgstr "Administração"
+
+#: dashboard.py:64
+msgid "Media Management"
+msgstr "Controle de Mídia"
+
+#: dashboard.py:68
+msgid "FileBrowser"
+msgstr "Navegação de Arquivos"
+
+#: dashboard.py:77
+msgid "Support"
+msgstr "Suporte"
+
+#: dashboard.py:81
+msgid "Django Documentation"
+msgstr "Documentação do Django"
+
+#: dashboard.py:86
+msgid "Grappelli Documentation"
+msgstr "Documentação do Grappelli"
+
+#: dashboard.py:91
+msgid "Grappelli Google-Code"
+msgstr "Grappelli Google-Code"
+
+#: dashboard.py:100
+msgid "Latest Django News"
+msgstr "Últimas novidades do Django"
+
+#: dashboard.py:108
+msgid "Recent Actions"
+msgstr "Últimas Ações"
+
+#: settings.py:56
+msgid "Português"
+msgstr "Português"
+
+#: settings.py:57
+msgid "English"
+msgstr "English"
+
+#: contato/views.py:18
+msgid "Nome"
+msgstr "Nome"
+
+#: contato/views.py:19
+msgid "E-mail"
+msgstr "E-mail"
+
+#: contato/views.py:20
+msgid "Mensagem"
+msgstr "Mensagem"
+
+#: templates/404.html:6 templates/404.html.py:9
+msgid "Not Found"
+msgstr "Não Encontrado"
+
+#: templates/404.html:18
+msgid "Not Found!"
+msgstr "Não Encontrado!"
+
+#: templates/404.html:20
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Desculpe, mas a página que você está tentando visualizar não existe."
+
+#: templates/layout/default.html:49
+msgid "Go to the Text"
+msgstr "Para o Texto"
+
+#: templates/layout/default.html:52
+msgid "Go to the Navigation Menu"
+msgstr "Para o menu de navegação"
+
+#: templates/layout/footer.html:6 templates/pages/about.html:6
+#: templates/pages/about.html.py:8
+msgid "About"
+msgstr "Sobre"
+
+#: templates/layout/footer.html:7 templates/pages/games.html:6
+#: templates/pages/games.html.py:8
+msgid "Games"
+msgstr "Jogos"
+
+#: templates/layout/footer.html:8 templates/pages/apps.html:6
+#: templates/pages/apps.html.py:8
+msgid "Apps"
+msgstr "Apps"
+
+#: templates/layout/footer.html:9 templates/pages/blog.html:6
+#: templates/pages/blog.html.py:9
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/layout/footer.html:10 templates/pages/contact.html:6
+#: templates/pages/contact.html.py:9 templates/pages/contact.html:28
+#: templates/pages/contact_sent.html:6 templates/pages/contact_sent.html:9
+#: templates/pages/contact_sent.html:28
+msgid "Contact"
+msgstr "Contato"
+
+#: templates/layout/header.html:22
+msgid "Back to The Landing Page"
+msgstr "Voltar para Página Principal"
+
+#: templates/pages/about.html:16
+msgid "about.p1"
+msgstr ""
+"IMGNATION Studios é uma empresa de desenvolvimento de aplicativos móveis, "
+"que ama fazer jogos originais e proporcionar ao usuário a melhor experiência "
+"em apps."
+
+#: templates/pages/about.html:18
+msgid "about.p2"
+msgstr ""
+"A IMGNATION começou suas atividades em 2007 como uma empresa de ilustração e "
+"<em>concep art</em>, através dos anos a empresa evoluiu para um time "
+"completo de desenvolvimento, comprometido em trazer jogos e apps à vida."
+
+#: templates/pages/about.html:20
+msgid "about.p3"
+msgstr "Nossa sede é localizada no sul do Brasil."
+
+#: templates/pages/apps.html:20 templates/pages/games.html:20
+msgid "Nada registrado"
+msgstr "Nada registrado"
+
+#: templates/pages/apps.html:30 templates/pages/games.html:29
+msgid "Para saber mais visite o site."
+msgstr "Para saber mais visite o site."
+
+#: templates/pages/blog.html:17
+msgid "Coming Soon"
+msgstr "Em breve"
+
+#: templates/pages/contact.html:18 templates/pages/contact_sent.html:18
+msgid "Address"
+msgstr "Endereço"
+
+#: templates/pages/contact.html:33
+msgid "Name"
+msgstr "Nome"
+
+#: templates/pages/contact.html:41
+msgid "Message"
+msgstr "Mensagem"
+
+#: templates/pages/contact.html:46
+msgid "Send"
+msgstr "Enviar"
+
+#: templates/pages/contact_sent.html:30
+msgid "We will respond your message as soon as we can."
+msgstr "Nós responderemos sua mensagem assim que pudermos."
+
+#: templates/pages/home.html:8
+msgid "We make Games"
+msgstr "Fazemos <span>Jogos</span>"
+
+#: templates/pages/home.html:11
+msgid "We make Apps"
+msgstr "Fazemos <span>Apps</span>"
+
+#: templates/pages/home.html:14
+msgid "And we love to make them"
+msgstr "E nós <span>amamos</span> fazê-los"
+
+#~ msgid "Not Fouund"
+#~ msgstr "Não Encontrado"
+
+#~ msgid "It looks like this was the result of either:"
+#~ msgstr "Isto pode ter ocorrido por: "
+
+#~ msgid "a mistyped address"
+#~ msgstr "Endereço digitado incorretamente"
+
+#~ msgid "an out-of-date link"
+#~ msgstr "Link vencido"

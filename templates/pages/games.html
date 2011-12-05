@@ -1,0 +1,34 @@
+{% extends "layout/default.html" %}
+
+{% load l10n %}
+{% load i18n %}
+
+{% block title %}{% trans 'Games' %} | {% endblock %}
+
+{% block metatitle %}{% trans 'Games' %}{% endblock %}
+
+{% block bodyid %}games{% endblock %}
+
+{% block conteudo %}
+
+{% for game in games %}
+<div>
+
+	{% for img in game.images.all %}
+	<img src="{{ MEDIA_URL }}{{ img.image }}" alt="{{ img.short_description }}">
+	{% empty %}
+	{% trans 'Nada registrado' %}
+	{% endfor %}
+	</div>
+<div>
+	<h2>{{ game.name }}</h2>
+	{% autoescape off %}
+	    {{ game.description }}
+	{% endautoescape %}
+	{% if app.url %}
+		<a href={{ app.url }}>{% trans 'Para saber mais visite o site.' %}</a>
+	{% endif %}
+</div>
+{% endfor %}
+
+{% endblock %}

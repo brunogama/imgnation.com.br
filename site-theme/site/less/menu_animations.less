@@ -1,0 +1,64 @@
+// Estilos para as animações
+@import "functions.less";
+#nav li {
+	div { 
+		position: absolute; 
+		.opacity(0); 
+		background-repeat: no-repeat;
+		z-index: -1; 
+		.transition(all,.3s,ease-in-out); 
+		.transform(scale(0.1)); 
+	}
+
+	&:hover div { 
+		.opacity(); 
+		.transition(all,.3s,ease-in-out);
+	}
+
+	&.about div {
+		.dim(88px,88px);
+		background-image: url(../img/about-hover.png);
+	}
+
+	&.about:hover div {
+		.transform(rotateY(180deg) scale(1));
+	}
+
+	&.games div { 
+		.dim(88px,88px); 
+		background-image: url(../img/games-hover.png);
+	}
+
+	&.games:hover div { 
+		.transform(rotate(180deg) scale(1)); 
+	}
+
+	&.apps div {
+		.dim(102px,100px);
+		background-image: url(../img/apps-hover.png);
+		.transform(rotate(180deg) scale(0.1));
+		.transform(rotateX(180deg));
+	}
+
+	&.apps:hover div {
+		.transform(rotate(360deg) scale(1));
+		.transform(rotateX(360deg) scale(1));
+	}
+
+	&.blog div {
+		background-image: url(../img/blog-hover.png);
+		.dim(107px,106px);
+	}
+
+	&.blog:hover div {
+		.transform(scale(1));
+	}
+
+	&.contact div { 
+		.dim(99px,99px);
+		background-image: url(../img/contact-hover.png); 
+		margin: 4px 0 0 -3px;
+	}
+
+	&.contact:hover div { margin: -8px 0 0 -7px; .transform(rotate(180deg) scale(1)); }
+} 
