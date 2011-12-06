@@ -9,9 +9,7 @@
 <li>	
 	<form action="/i18n/setlang/" method="post">
 	{% csrf_token %}
-	{% with the_path=request.get_full_path %}
-		<input name="next" type="hidden" value="/{{ the_path|cut:'/pt-br/'|cut:'/en/' }}" />
-	{% endwith %}
+	<input name="next" type="hidden" value="/" />
 	<input type=hidden name="language" value="{{ language.code }}">
 	
 	{% with language.code|slice:"0:2" as FORMATED_LANGUAGE_CODE  %}

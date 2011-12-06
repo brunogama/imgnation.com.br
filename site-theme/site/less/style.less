@@ -24,11 +24,14 @@ body {
 }
 
 #container {
-	@containerHeight:768px; @containerWidth:960px;
+	@containerWidth: 960px; @containerHeight: 768px;
+ 	width: @containerWidth; height: @containerHeight;
+	position: absolute;
+	top: 50%; left: 50%;
+	margin-top: @containerHeight/-2;
+	margin-left: @containerWidth/-2;
+
 	
-	height: @containerHeight; width: @containerWidth;
-	margin: 0 auto;
-	position: relative;
 }
 
 #main {
