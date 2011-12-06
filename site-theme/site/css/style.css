@@ -51,13 +51,13 @@ table{border-collapse:collapse;border-spacing:0;}
 td{vertical-align:top;}
 html,body{min-height:100%;}
 body{background:url(../img/tiles.jpg);background:url(../img/logo-bg.png) no-repeat 50% 50%,url(../img/gradient-background.png) no-repeat 50% 50%,url(../img/tiles.jpg) 0 0 repeat;background:url(../img/logo-bg.png) no-repeat 50% 50%,-webkit-gradient(radial, 50% 50%, 200, 50% 50%, 20, from(rgba(22, 26, 46, 0.3)), to(rgba(29, 35, 58, 0.5))),url(../img/tiles.jpg);background:url(../img/logo-bg.png) no-repeat 50% 50%,-webkit-radial-gradient(50% 50%, rgba(29, 35, 58, 0.5), rgba(22, 26, 46, 0.3)),url(../img/tiles.jpg);background:url(../img/logo-bg.png) no-repeat 50% 50%,-moz-radial-gradient(50% 50%, rgba(29, 35, 58, 0.5), rgba(22, 26, 46, 0.3)),url(../img/tiles.jpg);background:url(../img/logo-bg.png) no-repeat 50% 50%,-ms-radial-gradient(50% 50%, rgba(29, 35, 58, 0.5), rgba(22, 26, 46, 0.3)),url(../img/tiles.jpg);background:url(../img/logo-bg.png) no-repeat 50% 50%,-o-radial-gradient(50% 50%, rgba(29, 35, 58, 0.5), rgba(22, 26, 46, 0.3)),url(../img/tiles.jpg);background:url(../img/logo-bg.png) no-repeat 50% 50%,radial-gradient(50% 50%, rgba(29, 35, 58, 0.5), rgba(22, 26, 46, 0.3)),url(../img/tiles.jpg);min-width:1000px;}
+#container{height:768px;width:960px;margin:0 auto;position:relative;}
+#main{position:relative;height:470px;width:890px;padding:0 70px;color:#fff;display:table-cell;vertical-align:middle;}
 header ul{position:absolute;right:0;overflow:auto;z-index:10;}header ul li{display:block;float:left;}header ul li a:link,header ul li a:visited,header ul li a:hover,header ul li a:focus,header ul li a:active{font:10px "Helvetica Neue",Helvetica,Arial,sans-serif;color:white;text-decoration:none;z-index:100;display:block;padding:1px 6px;-webkit-font-smoothing:subpixel-antialiased;}
 header ul li a:hover{text-decoration:underline;}
 header ul li:nth-child(1){border-right:1px solid white;}
 #imgnation_studios{background:url(../img/logo.png) no-repeat;height:141px;width:518px;position:absolute;bottom:0;right:0;z-index:1000;margin-right:-10px;}
 h2{font:700 36px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#f8c60b;}
-#container{height:768px;width:960px;margin:0 auto;position:relative;}
-#main{position:relative;height:470px;width:890px;padding:0 70px;color:#fff;display:table-cell;vertical-align:middle;}
 .address li,p{margin:0;padding:0;margin-top:18px;font:700 18px "Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;}.address li span,p span{color:#ffe800;}
 .address li a:link,p a:link,.address li a:visited,p a:visited,.address li a:hover,p a:hover,.address li a:focus,p a:focus,.address li a:active,p a:active{color:#ffe800;text-decoration:none;}
 .address li a:hover,p a:hover{text-decoration:underline;}
@@ -76,6 +76,8 @@ h2{font:700 36px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#f8c60b;}
 #blog #main p,#landing #main p{text-align:right;margin:0;padding:0;letter-spacing:-3px;text-transform:uppercase;font-size:66px;font-weight:700;}#blog #main p span,#landing #main p span{color:#ec912b;font-size:80px;}
 #blog #main p:nth-child(2) span,#landing #main p:nth-child(2) span{color:#f8c60b;}
 #blog #main p:nth-child(3),#landing #main p:nth-child(3){font-size:18px;letter-spacing:-1px;text-transform:none;}#blog #main p:nth-child(3) span,#landing #main p:nth-child(3) span{color:#ec912b;font-size:18px;}
+#not-found{text-align:right;}#not-found h2{font-size:72px;}
+#not-found p{font-size:32px;}
 footer{background:url(../img/footer-gradient.png) no-repeat bottom center;height:140px;width:840px;margin:0 auto;padding-bottom:14px;position:relative;}
 nav,nav #nav,nav #nav li{height:140px;}
 #nav{overflow:hidden;display:block;}
@@ -96,6 +98,10 @@ body#apps .apps a,.apps a:active{background-position:-103px 0;}
 body#contact .contact a,.contact a:active{background-position:-92px 0;}
 .blog{width:108px;margin-right:77px;}.blog a{padding-top:107px;height:32;background-image:url(../img/sprite-blog.png);}
 body#blog .blog a,.blog a:active{background-position:-108px 0;}
+#language-selector{margin:10px 0 0 0;padding:0;position:absolute;float:right;display:block;right:0;z-index:11;}
+#language-selector li{display:inline-block;}
+#language-selector li:first-child{border-right:1px solid white;overflow:auto;}
+#language-selector input[type=submit]{background-color:transparent;border:none;color:white;text-transform:uppercase;font-size:10px;}
 .ir{display:block;border:0;text-indent:-999em;overflow:hidden;background-color:transparent;background-repeat:no-repeat;text-align:left;direction:ltr;}
 .ir br{display:none;}
 .hidden{display:none !important;visibility:hidden;}

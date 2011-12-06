@@ -21,9 +21,15 @@ urlpatterns += patterns('django.views.generic.simple',
 	url(r'^$', 'direct_to_template', { 'template' : 'pages/home.html'}, name='home'),
 	url(r'^blog/$', 'direct_to_template',{ 'template' : 'pages/blog.html'}, name='blog'),
 	url(r'^about/$', 'direct_to_template', { 'template' : 'pages/about.html'}, name='about'),
-	url(r'^404/$', 'direct_to_template', { 'template' : '404.html'}, name='404'),
+
 	# url(r'^contact/thank-you/$', 'direct_to_template', { 'template' : 'pages/contact_sent.html'}, name='contact_sent'),
 )
+
+if settings.DEBUG:
+	urlpatterns += patterns('',
+		url(r'^404/$', 'django.views.generic.simple.direct_to_template', { 'template' : '404.html'}, name='404'),
+	)
+		
 
 
 # admin stuff

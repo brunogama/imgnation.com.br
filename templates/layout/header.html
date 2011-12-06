@@ -3,21 +3,23 @@
 <header>
 	<!-- Current Language Code: {{ LANGUAGE_CODE }} 
 	-->
+<ol id="language-selector">
+	{% get_language_info_list for LANGUAGES as languages %}
+	{% for language in languages %}
+<li>	
 	<form action="/i18n/setlang/" method="post">
 	{% csrf_token %}
 	{% with the_path=request.get_full_path %}
 		<input name="next" type="hidden" value="/{{ the_path|cut:'/pt-br/'|cut:'/en/' }}" />
 	{% endwith %}
+	<input type=hidden name="language" value="{{ language.code }}">
 	
-	<select name="language">
-	{% get_language_info_list for LANGUAGES as languages %}
-	{% for language in languages %}
-	<option value="{{ language.code }}">{{ language.name_local }} <!-- ({{ language.code }}) --></option>
-	{% endfor %}
-	</select>
-	<input type="submit" value="Go" style="background: transparent; color: white; " />
+	{% with language.code|slice:"0:2" as FORMATED_LANGUAGE_CODE  %}
+	<input type="submit" value="{{ FORMATED_LANGUAGE_CODE }}" />
+	{% endwith %}
 	</form>
-	
-	
+
+</li>	{% endfor %}
+</ol>	
 	<a href="{{ '/'|transform_url }}" title="{% trans 'Back to The Landing Page' %}"><h1 id=imgnation_studios class=ir>IMGNATION Studios</h1></a>
 </header>

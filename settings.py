@@ -226,7 +226,7 @@ LOGGING = {
 
 
 # django-urli18n settings 
-# URLI18N_ALWAYS_SHOW_LANGUAGE = False
+URLI18N_ALWAYS_SHOW_LANGUAGE = True
 URLI18N_INCLUDE_PATHS = ['/', 'about/', 'games/', 'apps/', 'blog/', 'contact/']
 
 EMAIL_HOST = 'localhost'
