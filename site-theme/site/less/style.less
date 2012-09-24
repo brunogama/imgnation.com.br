@@ -31,7 +31,7 @@ body {
 	margin-top: @containerHeight/-2;
 	margin-left: @containerWidth/-2;
 
-	
+
 }
 
 #main {
@@ -49,7 +49,7 @@ header ul {
 	right: 0;
 	overflow: auto;
 	z-index: 10;
-	li { 
+	li {
 		display: block;
 		float: left;
 		a:link, a:visited, a:hover, a:focus, a:active {
@@ -68,12 +68,12 @@ header ul {
 	}
 }
 
-#imgnation_studios { 
-	background: url(../img/logo.png) no-repeat; 
-	height: 141px; width: 518px; 
-	position: absolute; 
-	bottom: 0; right: 0; 
-	z-index: 1000; 
+#imgnation_studios {
+	background: url(../img/logo.png) no-repeat;
+	height: 141px; width: 518px;
+	position: absolute;
+	bottom: 0; right: 0;
+	z-index: 1000;
 	margin-right: -10px;
 }
 
@@ -121,17 +121,17 @@ p {
 	div:first-child {
 		padding-top: 20px;
 	}
-	
+
 	li {
 		list-style: none;margin-bottom: 20px;
 		position: relative;
 	}
-	
+
 	// Decoration Styles
 	input, textarea, button	{
 		font: 700 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
-		
+
 		color: rgba(66,66,66,1);
 		background: #c9c9c9;
 		border: none;
@@ -143,25 +143,25 @@ p {
 		box-shadow:			inset 0 0 @shadowSpread @shadowSpread @shadowColor;
 		.transform(scale(1));
 		.transition(all,.2s,ease-in-out);
-		
+
 		&:focus{
 			.transform(scale(1.04));
 			.transition(all,.2s,ease-in-out);
 		}
 	}
-	
+
 	input {
 		border: none;
 		height: 39px;width: 273px;
 		padding: 0 10px;
-		
+
 	}
-	
+
 	textarea {
 		border: none;
 		padding: 10px 10px;
 		width: 273px; height: 100px;
-		
+
 	}
 	button {
 		text-shadow: 0 0 12px white;
@@ -197,15 +197,15 @@ p {
 	letter-spacing: -3px;
 	text-transform: uppercase;
 	font-size: 66px; font-weight: 700;
-	
+
 	span { color: @colorLaranja; font-size: 80px; }
 	&:nth-child(2) span { color: @colorAmarelo; }
-	&:nth-child(3) { 
+	&:nth-child(3) {
 		font-size: 18px;
-		letter-spacing: -1px; 
+		letter-spacing: -1px;
 		text-transform: none;
 		span {
-			color: @colorLaranja; 
+			color: @colorLaranja;
 			font-size: 18px;
 		}
 	}
@@ -250,13 +250,13 @@ nav, nav #nav, nav #nav li { height: 140px }
 	}
 }
 
-.about { 
-	width: 88px; 
-	margin-right: 98px; 
+.about {
+	width: 88px;
+	margin-right: 98px;
 	padding-top: 10px;
 	a {
 		padding-top: 100px; height:29;
-		background-image: url(../img/sprite-about.png); 
+		background-image: url(../img/sprite-about.png);
 	}
 }
 
@@ -265,11 +265,11 @@ body#about .about a,
 	background-position: -87px 0;
 }
 
-.games { 
+.games {
 	width: 88px;
 	margin-right: 78px;
 	padding-top: 17px;
-	a { 
+	a {
 		@totalHeight: 123px;
 		@paddingTop:94px;
 		padding-top: @paddingTop; height:@totalHeight - @paddingTop;
@@ -286,7 +286,7 @@ body#games .games a,
 .apps {
 	width: 102px;
 	margin-right: 86px;
-	a { 
+	a {
 		height: 33px; padding-top: 107px;
 		background-image: url(../img/sprite-apps.png);
 	}
@@ -297,13 +297,13 @@ body#apps .apps a,
 	background-position: -103px 0;
 }
 
-.contact { 
-	width: 92px; 
+.contact {
+	width: 92px;
 	padding-top: 8px;
 	a {
 		// 131
 		padding-top: 99px; height:32;
-		background-image: url(../img/sprite-contact.png); 
+		background-image: url(../img/sprite-contact.png);
 	}
 }
 
@@ -312,12 +312,12 @@ body#contact .contact a,
 	background-position: -92px 0;
 }
 
-.blog { 
-	width: 108px; 
+.blog {
+	width: 108px;
 	margin-right: 77px;
-	a { 
+	a {
 		padding-top: 107px; height:32;
-		background-image: url(../img/sprite-blog.png); 
+		background-image: url(../img/sprite-blog.png);
 	}
 }
 
@@ -328,14 +328,14 @@ body#blog .blog a,
 
 /*@-moz-document url-prefix() {
 	* { font-weight: 100; }
-	h1, h2, h3, h4, h5, h6 { 
+	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
 	}
 }*/
 
-#language-selector { margin:10px 0 0 0; padding:0; position: absolute; float: right; display: block; right: 0; z-index: 11 }
-#language-selector li { display: inline-block; }
-#language-selector li:first-child { border-right: 1px solid white; overflow: auto }
+#language-selector { position: absolute; float: right; display: block; right: 0; z-index: 11; margin: 10px 0 0 0; }
+#language-selector li { display: inline-block; overflow: auto }
+#language-selector li:first-child { border-right: 1px solid white; }
 
 #language-selector input[type=submit] {
 	background-color: transparent;
@@ -345,4 +345,9 @@ body#blog .blog a,
 	font-size: 10px;
 }
 
+#social-box {
+	position: absolute;
+	bottom: 10px; right: 10px;
+	z-index: 1000;
+}
 @import "html5boilerplate-outro.less";

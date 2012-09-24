@@ -7,7 +7,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
 	url(r'^portfolio/(?P<slug>[\w_-]+)/$', 'imgnation.portfolio.views.trabalhos', name='portfolio'),
-	url(r'^games/$', 'imgnation.portfolio.views.games', name='games'),
+	# url(r'^games/$', 'imgnation.portfolio.views.games', name='games'),
 	url(r'^apps/$', 'imgnation.portfolio.views.apps', name='apps'),
 	url(r'^contact/$', 'imgnation.contato.views.contato', name='contato'),
 	url(r'^contact/thank-you/$', 'imgnation.contato.views.contato_enviado', name='contato_enviado'),
@@ -20,8 +20,9 @@ urlpatterns = patterns('',
 urlpatterns += patterns('django.views.generic.simple',
 	url(r'^$', 'direct_to_template', { 'template' : 'pages/home.html'}, name='home'),
 	url(r'^blog/$', 'direct_to_template',{ 'template' : 'pages/blog.html'}, name='blog'),
+	url(r'^games/$', 'direct_to_template', { 'template' : 'pages/games2.html'}, name='games'),
 	url(r'^about/$', 'direct_to_template', { 'template' : 'pages/about.html'}, name='about'),
-
+	url(r'^twitter/$', 'direct_to_template', { 'template' : 'pages/twitter.html'}, name='about'),
 	# url(r'^contact/thank-you/$', 'direct_to_template', { 'template' : 'pages/contact_sent.html'}, name='contact_sent'),
 )
 

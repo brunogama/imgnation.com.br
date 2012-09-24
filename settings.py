@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Django settings for imgnation project.
 
-import sys
+
 import os
 
 
@@ -15,7 +15,7 @@ TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
-	('Bruno Gama', 'bruno@imgnation.com.br')
+    ('Bruno Gama', 'bruno@imgnation.com.br')
 )
 
 
@@ -24,7 +24,7 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        'ENGINE': 'django.db.backends.sqlite3',  # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'imgn.db',                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
@@ -103,16 +103,16 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-	rel('site-theme'),
+    rel('site-theme'),
 )
 
 
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
-	'django.contrib.staticfiles.finders.FileSystemFinder',
-	'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-	'django.contrib.staticfiles.finders.DefaultStorageFinder',
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
 
@@ -121,15 +121,15 @@ SECRET_KEY = 'e8ec3txx)t_gl1e7-tn-r#w1r#5a-d5sd&%%iz2lxa@ew-s6!l'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
-	'django.template.loaders.filesystem.Loader',
-	'django.template.loaders.app_directories.Loader',
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
 
-	# "django.contrib.auth.context_processors.auth",
-	# "django.core.context_processors.request",
-	# "django.core.context_processors.i18n",
-	# 'django.contrib.messages.context_processors.messages',
-	# 'django.template.loaders.eggs.Loader',
-	'django.template.loaders.app_directories.load_template_source',
+    # "django.contrib.auth.context_processors.auth",
+    # "django.core.context_processors.request",
+    # "django.core.context_processors.i18n",
+    # 'django.contrib.messages.context_processors.messages',
+    # 'django.template.loaders.eggs.Loader',
+    'django.template.loaders.app_directories.load_template_source',
 )
 
 
@@ -150,13 +150,13 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 
 MIDDLEWARE_CLASSES = (
-	'annoying.middlewares.StaticServe',
-	
-	'django.middleware.common.CommonMiddleware',
-	'django.contrib.sessions.middleware.SessionMiddleware',
-	'django.middleware.csrf.CsrfViewMiddleware',
-	'django.contrib.auth.middleware.AuthenticationMiddleware',
-	'django.contrib.messages.middleware.MessageMiddleware',
+    'annoying.middlewares.StaticServe',
+
+    'django.middleware.common.CommonMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'urli18n.middleware.UrlPathTransformMiddleware',
 )
@@ -180,19 +180,20 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	'django.contrib.sitemaps',
-	'urli18n',
-	'rosetta',
-	'grappelli.dashboard',
-	'grappelli',
-	'filebrowser',
-	'mailer',
-	'robots',
-	'notification',
+    'django.contrib.sitemaps',
+    'django_extensions',
+    'urli18n',
+    'rosetta',
+    'grappelli.dashboard',
+    'grappelli',
+    'filebrowser',
+    'mailer',
+    'robots',
+    'notification',
     'django.contrib.admin',
-	# 'django.contrib.flatpages',
+    # 'django.contrib.flatpages',
 
-	'imgnation.portfolio',
+    'imgnation.portfolio',
 )
 
 
@@ -225,7 +226,7 @@ LOGGING = {
 }
 
 
-# django-urli18n settings 
+# django-urli18n settings
 URLI18N_ALWAYS_SHOW_LANGUAGE = True
 URLI18N_INCLUDE_PATHS = ['/', 'about/', 'games/', 'apps/', 'blog/', 'contact/']
 

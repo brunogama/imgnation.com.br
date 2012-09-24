@@ -1,23 +1,35 @@
 {% load urli18n_tags %}
 {% load i18n %}
 <header>
-	<!-- Current Language Code: {{ LANGUAGE_CODE }} 
+	<!-- Current Language Code: {{ LANGUAGE_CODE }}
 	-->
 <ol id="language-selector">
 	{% get_language_info_list for LANGUAGES as languages %}
 	{% for language in languages %}
-<li>	
+<li>
 	<form action="/i18n/setlang/" method="post">
 	{% csrf_token %}
 	<input name="next" type="hidden" value="/" />
 	<input type=hidden name="language" value="{{ language.code }}">
-	
+
 	{% with language.code|slice:"0:2" as FORMATED_LANGUAGE_CODE  %}
 	<input type="submit" value="{{ FORMATED_LANGUAGE_CODE }}" />
 	{% endwith %}
 	</form>
 
 </li>	{% endfor %}
-</ol>	
+</ol>
 	<a href="{{ '/'|transform_url }}" title="{% trans 'Back to The Landing Page' %}"><h1 id=imgnation_studios class=ir>IMGNATION Studios</h1></a>
+					<div id="social-box">
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) {return;}
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+
+					<div class="fb-like" data-href="http://www.facebook.com/imgnationstudios" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+				</div>
 </header>

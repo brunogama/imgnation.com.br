@@ -14,7 +14,6 @@ django-robots==0.8.0
 django-rosetta==0.6.2
 django-transmeta==0.6.2
 django-urli18n==0.1
-feedparser==5.0.1
-lxml==2.3.1
-mutagen==1.20
+virtualenv==1.7
+virtualenvwrapper==2.10.1
 wsgiref==0.1.2
