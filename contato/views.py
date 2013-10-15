@@ -23,16 +23,16 @@ class FormContato(forms.Form):
 		e_name = '%(name)s' % self.cleaned_data
 		e_email = '%(email)s' % self.cleaned_data
 		from_email = '%s <%s>' % (e_name, e_email)
-		
+
 		# email_server = 'site@imgnation.com.br'
 		subject = 'Mensagem enviada pelo site'
 		message = u'''Nome: %(name)s
 					Email: %(email)s
 					Mensagem: %(message)s
 					''' % self.cleaned_data
-					
+
 		message = message.replace('\t','')
-		
+
 		send_mail(subject, message, from_email ,['contato@imgnation.com.br'], fail_silently=False)
 
 
@@ -44,14 +44,14 @@ def contato(request):
 		if form.is_valid():
 			try:
 				form.enviar()
-				
+
 			except BadHeaderError:
 				return HttpResponse('Invalid header found.')
 
 			return HttpResponseRedirect(reverse('imgnation.contato.views.contato_enviado'))
 	else:
 		form = FormContato()
-	
+
 	pars['form'] = form
 	return { 'pars' : pars }
 

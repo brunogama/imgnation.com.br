@@ -1,0 +1,21 @@
+{% extends "layout/default.html" %}
+{% load l10n %}
+{% load i18n %}
+
+{# Tag Title #}
+{% block title %}{% trans 'Games' %} | {% endblock %}
+
+{# metag title #}
+{% block metatitle %}{% trans 'Games' %}{% endblock %}
+
+{# id tag body #}
+{% block bodyid %}games{% endblock %}
+
+
+{% block conteudo %}
+<p style="text-align:right;">
+<span style="font-size:66px;color:white;text-transform:uppercase">
+    {% trans 'Coming Soon' %}
+</span>
+	</p>
+{% endblock %}

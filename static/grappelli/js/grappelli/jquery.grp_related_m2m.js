@@ -1,1 +1,0 @@
-/Users/windu/.virtualenvs/imgnation/lib/python2.7/site-packages/grappelli/static/grappelli/js/grappelli/jquery.grp_related_m2m.js

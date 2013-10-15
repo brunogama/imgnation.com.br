@@ -1,1 +1,0 @@
-/Users/windu/Sites/django/imgnation/site-theme/site/js/libs/jquery-1.6.2.js
